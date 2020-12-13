@@ -1,8 +1,8 @@
 {
-  "name": "chat-application",
+  "name": "chat-application-new",
   "version": "0.0.1",
-  "description": "A Quasar Project for realtime chat application using socket.io",
-  "productName": "ChatApp",
+  "description": "Quasar Chat App Using Socket.io",
+  "productName": "ChatApplication",
   "author": "shahajalal001@gmail.com",
   "private": true,
   "scripts": {

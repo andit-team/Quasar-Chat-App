@@ -2,24 +2,9 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/AuthLayout'),
+    component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Auth/Login') },
-      { path: 'signup', component: () => import('pages/Auth/SignUp') }
-    ]
-  },
-  {
-    path: '/user',
-    component: () => import('layouts/MainLayout'),
-    children: [
-      { path: '', component: () => import('pages/User/Users') },
-    ]
-  },
-  {
-    path: '/messages',
-    component: () => import('layouts/MainLayout'),
-    children: [
-      { path: '', component: () => import('pages/Message/Messages') },
+      { path: '', component: () => import('pages/Index.vue') }
     ]
   },
 
@@ -27,7 +12,7 @@ const routes = [
   // but you can also remove it
   {
     path: '*',
-    component: () => Error
+    component: () => import('pages/Error404.vue')
   }
 ]
 

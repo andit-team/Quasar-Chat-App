@@ -92,9 +92,7 @@ module.exports = function (/* ctx */) {
       // directives: [],
 
       // Quasar plugins
-      plugins: [
-        'Cookies'
-      ]
+      plugins: []
     },
 
     // animations: 'all', // --- includes all animations
@@ -111,9 +109,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `ChatApp`,
-        short_name: `ChatApp`,
-        description: `A Quasar Project for realtime chat application using socket.io`,
+        name: `ChatApplication`,
+        short_name: `ChatApplication`,
+        description: `Quasar Chat App Using Socket.io`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -178,7 +176,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'chat-application'
+        appId: 'chat-application-new'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

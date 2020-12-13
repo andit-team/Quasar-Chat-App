@@ -1,6 +1,6 @@
-# ChatApp (chat-application)
+# ChatApplication (chat-application-new)
 
-A Quasar Project for realtime chat application using socket.io
+Quasar Chat App Using Socket.io
 
 ## Install the dependencies
 ```bash
